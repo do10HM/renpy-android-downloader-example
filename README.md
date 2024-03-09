@@ -49,5 +49,5 @@ This game cannot be run until the game data has been downloaded.
 
 When I tap 'retry', it repeats, with slightly different bytes.
 
-ADB log filtered for the bundle id `com.example.downloader`
-Video
+[ADB log filtered for the bundle id `com.example.downloader`](https://github.com/do10HM/renpy-android-downloader-example/blob/issue/protocol-error/Results/adb_log.txt)
+[Video](https://github.com/do10HM/renpy-android-downloader-example/blob/issue/protocol-error/Results/Screen_recording_20240309_150218.webm)
