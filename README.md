@@ -42,9 +42,11 @@ The Game should load after downloading the files!
 
 # ISSUE: PROTOCOL ERROR
 Reproduced in Ren'Py renpy-8.2.2.24030501+nightly-sdk
+
 Following the steps above for this project, the files download. I then see: 
 
 An error occured when trying to download game data:
+
 ProtocolError: ('Connection broken: IncompleteRead(3952381 bytes read, 219 more expected)', IncompleteRead(3952381 bytes read, 219 more expected))
 This game cannot be run until the game data has been downloaded.
 
