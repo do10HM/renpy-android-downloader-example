@@ -3,6 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+define build.game_only_update = True
+
 define e = Character("Eileen")
 
 
