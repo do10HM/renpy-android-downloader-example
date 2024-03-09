@@ -10,24 +10,31 @@ define e = Character("Eileen")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    # The url to updates.json, on your web server.
+    define url = "http://127.0.0.1/updates.json"
 
-    scene bg room
+    # Disable saving in the downloader game.
+    define config.save = False
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    define e = Character("Eileen", image="eileen")
 
-    show eileen happy
+    label splashscreen:
 
-    # These display lines of dialogue.
+        scene bg washington
+        show eileen happy at left
 
-    e "You've created a new Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+        e "Welcome to the downloader game."
 
-    # This ends the game.
+        e "This will download the main game onto your phone, so you can play it."
 
+        e "The url is [url]"
+
+        $ downloader = updater.start_game_download(url)
+        if downloader.download_total:
+            $ download_mb = int(round(downloader.download_total / 1024 / 1024, 0))
+            e "To play this game, you'll need to download [download_mb] megabytes of data. If you're not on WiFi, you could be charged for it. Tap the screen to proceed."
+        else:
+            e "To play this game, you'll need to download some data. If you're not on WiFi, you could be charged for it. Tap the screen to proceed."
+            $ updater.continue_game_download()
     return
