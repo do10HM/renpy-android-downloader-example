@@ -39,3 +39,15 @@ Start `adb logcat` to monitor logs.
 Progress through the prompts until the download begins.
 You should see activity on your local web server, like "::ffff:192.168.86.224 - "GET /updates.json HTTP/1.1" 200
 The Game should load after downloading the files!
+
+# ISSUE: PROTOCOL ERROR
+Following the steps above for this project, the files download. I then see: 
+
+An error occured when trying to download game data:
+ProtocolError: ('Connection broken: IncompleteRead(3952381 bytes read, 219 more expected)', IncompleteRead(3952381 bytes read, 219 more expected))
+This game cannot be run until the game data has been downloaded.
+
+When I tap 'retry', it repeats, with slightly different bytes.
+
+ADB log filtered for the bundle id `com.example.downloader`
+Video
