@@ -1,0 +1,115 @@
+2024-03-09 14:37:53.203   507-4252  ActivityTaskManager     system_server                        I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.downloader/org.renpy.android.PythonSDLActivity bnds=[35,649][237,973]} from uid 10140
+2024-03-09 14:37:53.238   507-553   ActivityManager         system_server                        I  Start proc 11755:com.example.downloader/u0a157 for pre-top-activity {com.example.downloader/org.renpy.android.PythonSDLActivity}
+2024-03-09 14:37:53.690 11755-11781 SDL                     pid-11755                            V  Running main function SDL_main from library /data/app/~~B6noGqzCfSlmpMuyPkaA7g==/com.example.downloader-1PES91a3AdcWmxN1eGFSkQ==/lib/arm/librenpython.so
+2024-03-09 14:37:53.744 11755-11781 python                  pid-11755                            I  extracting private.mp3 to /data/user/0/com.example.downloader/files
+2024-03-09 14:37:53.804   507-551   system_server           system_server                        W  Failed to determine oat file name for dex location /data/app/~~B6noGqzCfSlmpMuyPkaA7g==/com.example.downloader-1PES91a3AdcWmxN1eGFSkQ==/base.apk: Dalvik cache directory does not exist
+2024-03-09 14:37:53.805   507-551   ArtManagerInternalImpl  system_server                        D  /data/misc/iorapd/com.example.downloader/1710023214/org.renpy.android.PythonSDLActivity/compiled_traces/compiled_trace.pb doesn't exist
+2024-03-09 14:37:53.805   507-551   ActivityTaskManager     system_server                        I  Displayed com.example.downloader/org.renpy.android.PythonSDLActivity: +599ms
+2024-03-09 14:37:53.819 11755-11755 SDL                     com.example.downloader               V  surfaceChanged()
+2024-03-09 14:37:53.819 11755-11755 SDL                     com.example.downloader               V  Window size: 2138x1006
+2024-03-09 14:37:53.819 11755-11755 SDL                     com.example.downloader               V  Device size: 2138x1006
+2024-03-09 14:37:53.850 11755-11755 SDL                     com.example.downloader               V  onWindowFocusChanged(): true
+2024-03-09 14:37:54.557 11755-11781 python                  com.example.downloader               V  Finished preparePython.
+2024-03-09 14:37:55.477 11755-11781 python                  com.example.downloader               I  Logging start.
+2024-03-09 14:37:56.016 11755-11781 python                  com.example.downloader               I  Opening APK '/data/app/~~B6noGqzCfSlmpMuyPkaA7g==/com.example.downloader-1PES91a3AdcWmxN1eGFSkQ==/base.apk'
+2024-03-09 14:37:56.325 11755-11781 python                  com.example.downloader               I  Opening APK '/data/app/~~B6noGqzCfSlmpMuyPkaA7g==/com.example.downloader-1PES91a3AdcWmxN1eGFSkQ==/base.apk'
+2024-03-09 14:37:56.335 11755-11781 python                  com.example.downloader               I  Opening APK '/data/app/~~B6noGqzCfSlmpMuyPkaA7g==/com.example.downloader-1PES91a3AdcWmxN1eGFSkQ==/base.apk'
+2024-03-09 14:37:56.947 11755-11781 python                  com.example.downloader               I  Manufacturer Google model sdk_gphone_x86
+2024-03-09 14:37:57.096 11755-11781 python                  com.example.downloader               I  Screen diagonal is 5.6258433482176535 inches.
+2024-03-09 14:37:57.101 11755-11781 python                  com.example.downloader               I  Version: Ren'Py 8.2.2.24030501+nightly
+2024-03-09 14:37:57.106 11755-11781 python                  com.example.downloader               I  Mobile search paths: /data/user/0/com.example.downloader/files/game
+2024-03-09 14:37:57.119 11755-11781 python                  com.example.downloader               I  Early init took 0.38s
+2024-03-09 14:37:57.347 11755-11781 python                  com.example.downloader               I  Loading error handling took 0.23s
+2024-03-09 14:37:57.631 11755-11781 python                  com.example.downloader               I  Loading script took 0.29s
+2024-03-09 14:37:57.632 11755-11781 python                  com.example.downloader               I  Saving to /storage/emulated/0/Android/data/com.example.downloader/files/saves
+2024-03-09 14:37:57.634 11755-11781 python                  com.example.downloader               I  Saving to /storage/emulated/0/Android/data/com.example.downloader/files/saves
+2024-03-09 14:37:57.715 11755-11781 python                  com.example.downloader               I  Loading save slot metadata took 0.09s
+2024-03-09 14:37:57.716 11755-11781 python                  com.example.downloader               I  Loading persistent took 0.00s
+2024-03-09 14:37:57.881 11755-11781 python                  com.example.downloader               I  Running init code took 0.17s
+2024-03-09 14:37:57.923 11755-11781 python                  com.example.downloader               I  Loading analysis data took 0.04s
+2024-03-09 14:37:57.929 11755-11781 python                  com.example.downloader               I  Analyze and compile ATL took 0.01s
+2024-03-09 14:37:57.942 11755-11781 python                  com.example.downloader               I  Reloading save slot metadata took 0.01s
+2024-03-09 14:37:57.945 11755-11781 python                  com.example.downloader               I  Index archives took 0.00s
+2024-03-09 14:37:57.948 11755-11781 python                  com.example.downloader               I  Dump and make backups took 0.00s
+2024-03-09 14:37:57.949 11755-11781 python                  com.example.downloader               I  Cleaning cache took 0.00s
+2024-03-09 14:37:57.954 11755-11781 python                  com.example.downloader               I  Making clean stores took 0.00s
+2024-03-09 14:37:58.040 11755-11781 python                  com.example.downloader               I  Initial gc took 0.09s
+2024-03-09 14:37:58.043 11755-11781 python                  com.example.downloader               I  Creating interface object took 0.00s
+2024-03-09 14:37:58.045 11755-11781 python                  com.example.downloader               I  Cleaning stores took 0.00s
+2024-03-09 14:37:58.218   419-11751 iorapd                  iorapd                               I  Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.example.downloader/1710023214/org.renpy.android.PythonSDLActivity/raw_traces/1710023878217969500.perfetto_trace.pb
+2024-03-09 14:37:58.327 11755-11781 python                  com.example.downloader               I  Init translation took 0.28s
+2024-03-09 14:37:58.351 11755-11781 python                  com.example.downloader               I  Build styles took 0.02s
+2024-03-09 14:37:58.351 11755-11781 python                  com.example.downloader               I  Load screen analysis took 0.00s
+2024-03-09 14:37:58.379 11755-11781 python                  com.example.downloader               I  Analyze screens took 0.03s
+2024-03-09 14:37:58.446 11755-11781 python                  com.example.downloader               I  Save screen analysis took 0.07s
+2024-03-09 14:37:58.700 11755-11781 python                  com.example.downloader               I  Prepare screens took 0.25s
+2024-03-09 14:37:58.700 11755-11781 python                  com.example.downloader               I  Save pyanalysis. took 0.00s
+2024-03-09 14:37:58.701 11755-11781 python                  com.example.downloader               I  Save bytecode. took 0.00s
+2024-03-09 14:37:58.706 11755-11781 python                  com.example.downloader               I  Running _start took 0.01s
+2024-03-09 14:37:58.931 11755-11781 AAudio                  com.example.downloader               I  AAudioStreamBuilder_openStream() called ----------------------------------------
+2024-03-09 14:37:58.931 11755-11781 AudioStreamBuilder      com.example.downloader               I  rate   =  48000, channels  = 2, format   = 1, sharing = SH, dir = OUTPUT
+2024-03-09 14:37:58.931 11755-11781 AudioStreamBuilder      com.example.downloader               I  device =      0, sessionId = -1, perfMode = 10, callback: OFF with frames = 0
+2024-03-09 14:37:58.931 11755-11781 AudioStreamBuilder      com.example.downloader               I  usage  =      0, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+2024-03-09 14:37:58.931 11755-11781 AudioStreamBuilder      com.example.downloader               I  privacy sensitive = false
+2024-03-09 14:37:58.931 11755-11781 AudioStreamBuilder      com.example.downloader               D  build() MMAP not used because AAUDIO_PERFORMANCE_MODE_LOW_LATENCY not requested.
+2024-03-09 14:37:58.931 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::PlayerBase()
+2024-03-09 14:37:58.932 11755-11781 AudioStreamTrack        com.example.downloader               D  open(), request notificationFrames = 0, frameCount = 0
+2024-03-09 14:37:58.937 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 0 to 2
+2024-03-09 14:37:58.938 11755-11781 AAudio                  com.example.downloader               I  AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+2024-03-09 14:37:58.938 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) called --------------
+2024-03-09 14:37:58.938 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 2 to 3
+2024-03-09 14:37:58.939 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::start() from IPlayer
+2024-03-09 14:37:58.939 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) returned 0 ---------
+2024-03-09 14:37:58.939 11755-11775 AudioStreamLegacy       com.example.downloader               D  onAudioDeviceUpdate() devId 2 => 2
+2024-03-09 14:37:58.978 11755-11793 AAudioStream            com.example.downloader               D  setState(s#1) from 3 to 4
+2024-03-09 14:37:59.017 11755-11781 python                  com.example.downloader               I  Interface start took 0.31s
+2024-03-09 14:37:59.051 11755-11781 HostConnection          com.example.downloader               D  HostConnection::get() New Host Connection established 0xf5020920, tid 11781
+2024-03-09 14:37:59.054 11755-11781 HostConnection          com.example.downloader               D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2024-03-09 14:37:59.080 11755-11781 SDL/APP                 com.example.downloader               I  pixel format wanted SDL_PIXELFORMAT_RGBA8888 (1), got SDL_PIXELFORMAT_RGBA8888 (1)
+2024-03-09 14:37:59.092 11755-11755 SDL                     com.example.downloader               V  surfaceChanged()
+2024-03-09 14:37:59.092 11755-11755 SDL                     com.example.downloader               V  Window size: 2264x1080
+2024-03-09 14:37:59.092 11755-11755 SDL                     com.example.downloader               V  Device size: 2264x1080
+2024-03-09 14:37:59.096 11755-11781 EGL_emulation           com.example.downloader               E  eglCreateContext: EGL_BAD_CONFIG: no ES 3 support
+2024-03-09 14:37:59.096 11755-11781 EGL_emulation           com.example.downloader               E  tid 11781: eglCreateContext(1682): error 0x3005 (EGL_BAD_CONFIG)
+2024-03-09 14:37:59.183 11755-11781 SDL/APP                 com.example.downloader               I  pixel format wanted SDL_PIXELFORMAT_RGBA8888 (1), got SDL_PIXELFORMAT_RGBA8888 (1)
+2024-03-09 14:37:59.184 11755-11781 EGL_emulation           com.example.downloader               E  eglCreateContext: EGL_BAD_CONFIG: no ES 3 support
+2024-03-09 14:37:59.184 11755-11781 EGL_emulation           com.example.downloader               E  tid 11781: eglCreateContext(1682): error 0x3005 (EGL_BAD_CONFIG)
+2024-03-09 14:37:59.236 11755-11781 SDL/APP                 com.example.downloader               I  pixel format wanted SDL_PIXELFORMAT_RGBA8888 (1), got SDL_PIXELFORMAT_RGBA8888 (1)
+2024-03-09 14:37:59.521 11755-11795 ProfileInstaller        com.example.downloader               D  Installing profile for com.example.downloader
+2024-03-09 14:37:59.748 11755-11781 EGL_emulation           com.example.downloader               D  eglCreateContext: 0xf5021720: maj 2 min 0 rcv 2
+2024-03-09 14:37:59.749 11755-11781 EGL_emulation           com.example.downloader               D  eglMakeCurrent: 0xf5021720: ver 2 0 (tinfo 0xc6806d10) (first time)
+2024-03-09 14:37:59.906 11755-11781 python                  com.example.downloader               I  Total time until interface ready: 3.3544559478759766s.
+2024-03-09 14:38:00.365 11755-11781 python                  com.example.downloader               I  Hid presplash.
+2024-03-09 14:38:00.750 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestPause(s#1) called
+2024-03-09 14:38:00.750 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 4 to 5
+2024-03-09 14:38:00.750 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::pause() from IPlayer
+2024-03-09 14:38:00.750 11755-11793 AAudioStream            com.example.downloader               D  setState(s#1) from 5 to 6
+2024-03-09 14:38:00.751 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) called --------------
+2024-03-09 14:38:00.751 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 6 to 3
+2024-03-09 14:38:00.751 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::start() from IPlayer
+2024-03-09 14:38:00.751 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) returned 0 ---------
+2024-03-09 14:38:00.794 11755-11793 AAudioStream            com.example.downloader               D  setState(s#1) from 3 to 4
+2024-03-09 14:38:01.369 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestPause(s#1) called
+2024-03-09 14:38:01.369 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 4 to 5
+2024-03-09 14:38:01.369 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::pause() from IPlayer
+2024-03-09 14:38:01.369 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) called --------------
+2024-03-09 14:38:01.369 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 5 to 3
+2024-03-09 14:38:01.370 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::start() from IPlayer
+2024-03-09 14:38:01.371 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) returned 0 ---------
+2024-03-09 14:38:01.413 11755-11793 AAudioStream            com.example.downloader               D  setState(s#1) from 3 to 4
+2024-03-09 14:38:02.033 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestPause(s#1) called
+2024-03-09 14:38:02.033 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 4 to 5
+2024-03-09 14:38:02.035 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::pause() from IPlayer
+2024-03-09 14:38:02.036 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) called --------------
+2024-03-09 14:38:02.036 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 5 to 3
+2024-03-09 14:38:02.036 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::start() from IPlayer
+2024-03-09 14:38:02.036 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) returned 0 ---------
+2024-03-09 14:38:02.077 11755-11793 AAudioStream            com.example.downloader               D  setState(s#1) from 3 to 4
+2024-03-09 14:38:02.696 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestPause(s#1) called
+2024-03-09 14:38:02.696 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 4 to 5
+2024-03-09 14:38:02.697 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::pause() from IPlayer
+2024-03-09 14:38:02.697 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) called --------------
+2024-03-09 14:38:02.697 11755-11781 AAudioStream            com.example.downloader               D  setState(s#1) from 5 to 3
+2024-03-09 14:38:02.697 11755-11793 AAudioStream            com.example.downloader               D  setState(s#1) from 5 to 6
+2024-03-09 14:38:02.697 11755-11781 mple.downloade          com.example.downloader               D  PlayerBase::start() from IPlayer
+2024-03-09 14:38:02.697 11755-11781 AAudio                  com.example.downloader               D  AAudioStream_requestStart(s#1) returned 0 ---------
