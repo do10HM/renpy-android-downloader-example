@@ -41,6 +41,7 @@ You should see activity on your local web server, like "::ffff:192.168.86.224 - 
 The Game should load after downloading the files!
 
 # ISSUE: PROTOCOL ERROR
+Reproduced in Ren'Py renpy-8.2.2.24030501+nightly-sdk
 Following the steps above for this project, the files download. I then see: 
 
 An error occured when trying to download game data:
@@ -49,5 +50,5 @@ This game cannot be run until the game data has been downloaded.
 
 When I tap 'retry', it repeats, with slightly different bytes.
 
-[ADB log filtered for the bundle id `com.example.downloader`](https://github.com/do10HM/renpy-android-downloader-example/blob/issue/protocol-error/Results/adb_log.txt)
+[ADB log filtered for the bundle id](https://github.com/do10HM/renpy-android-downloader-example/blob/issue/protocol-error/Results/adb_log.txt)
 [Video](https://github.com/do10HM/renpy-android-downloader-example/blob/issue/protocol-error/Results/Screen_recording_20240309_150218.webm)
